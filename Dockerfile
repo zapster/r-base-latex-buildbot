@@ -2,9 +2,7 @@ FROM zapster/r-base-latex
 
 USER root
 RUN apt-get update && apt-get install -y \
-     build-essential \
      git \
-     subversion \
      libffi-dev \
      libssl-dev \
      python-dev \
